@@ -4,18 +4,18 @@ class Asteroid extends Floater {
 		corners = 6;
 		xCorners = new int[corners];
 		yCorners = new int[corners];
-		xCorners[0] = - 11;
-		yCorners[0] = - 8;
-		xCorners[1] = 7;
-		yCorners[1] = - 8;
-		xCorners[2] = 13;
-		yCorners[2] = 0;
-		xCorners[3] = 12;
-		yCorners[3] = 10;
-		xCorners[4] = 5;
-		yCorners[4] = 8;
-		xCorners[5] = - 5;
-		yCorners[5] = 4;
+		xCorners[0] = - 15;
+		yCorners[0] = 10;
+		xCorners[1] = - 5;
+		yCorners[1] = 15;
+		xCorners[2] = 9;
+		yCorners[2] = 12;
+		xCorners[3] = 13;
+		yCorners[3] = 0;
+		xCorners[4] = 4;
+		yCorners[4] = - 13;
+		xCorners[5] = - 10;
+		yCorners[5] = - 10;
 		rotationSpeed = (int)(Math.random() * 5 - 2);
 	}
 	public void move() {
